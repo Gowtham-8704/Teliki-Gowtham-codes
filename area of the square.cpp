@@ -5,7 +5,7 @@ int main ( )
 	int x,a;
 	/* x is the side of the square */
 	printf("enter the value of x");
-	scanf("%d",x);
+	scanf("%d",&x);
 	a=x*x;
 	printf("the value of area of the square is %d",a);
 	
